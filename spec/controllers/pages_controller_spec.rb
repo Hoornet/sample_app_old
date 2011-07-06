@@ -7,12 +7,13 @@ describe PagesController do
     it "should be successful" do
       get 'home'
       response.should be_success
+
     end
 
     it "should have the right title" do
       get 'home'
       response.should have_selector("title",
-                      :content => "RoR Tutorial sample app | Home")
+          :content => "RoR Tutorial sample app | Home")
     end
   end
 
@@ -21,13 +22,26 @@ describe PagesController do
       get 'contact'
       response.should be_success
     end
+
+    it "should have the right title" do
+      get 'contact'
+      response.should have_selector("title",
+           :content => "RoR Tutorial sample app | Contact")
+    end
   end
+
 
   describe "GET 'about'" do
     it "should be successful" do
       get 'about'
       response.should be_success
     end
-  end
-end
 
+    it "should have the right title" do
+      get 'about'
+      response.should have_selector("title",
+           :content => "RoR Tutorial sample app | About")
+    end
+  end
+
+end
