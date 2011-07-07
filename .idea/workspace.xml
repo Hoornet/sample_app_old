@@ -82,7 +82,7 @@
       <file leaf-file-name="pages_controller_spec.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/controllers/pages_controller_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="12" selection-start="732" selection-end="732" vertical-scroll-proportion="0.25238097">
+            <state line="50" column="25" selection-start="1069" selection-end="1069" vertical-scroll-proportion="0.75714284">
               <folding />
             </state>
           </provider>
@@ -1065,7 +1065,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1138" height="1020" extended-state="0" />
+    <frame x="0" y="0" width="1138" height="1020" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288426" sideWeight="0.6218302" order="3" side_tool="false" content_ui="tabs" />
@@ -1243,7 +1243,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/controllers/pages_controller_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="12" selection-start="732" selection-end="732" vertical-scroll-proportion="0.25238097">
+        <state line="50" column="25" selection-start="1069" selection-end="1069" vertical-scroll-proportion="0.75714284">
           <folding />
         </state>
       </provider>
