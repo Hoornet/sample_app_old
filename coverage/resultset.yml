@@ -1,0 +1,30 @@
+--- 
+RSpec: 
+  :original_result: 
+    D:/Dropbox/Learning/RAILS/sample_app/app/controllers/application_controller.rb: 
+    - 1
+    - 1
+    - 
+    - 
+    D:/Dropbox/Learning/RAILS/sample_app/app/helpers/application_helper.rb: 
+    - 1
+    - 
+    D:/Dropbox/Learning/RAILS/sample_app/app/helpers/pages_helper.rb: 
+    - 1
+    - 
+    D:/Dropbox/Learning/RAILS/sample_app/app/controllers/pages_controller.rb: 
+    - 1
+    - 
+    - 1
+    - 2
+    - 
+    - 
+    - 1
+    - 2
+    - 
+    - 
+    - 1
+    - 2
+    - 
+    - 
+  :created_at: 2011-07-07 19:14:14.179526 +02:00
