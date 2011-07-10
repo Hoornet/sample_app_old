@@ -1,9 +1,11 @@
 require 'simplecov'
 SimpleCov.start 'rails'
 
-#require 'spork'
+#spork --bootstrap
+
+require 'spork'
 #
-#Spork.prefork do
+Spork.prefork do
   # This file is copied to spec/ when you run 'rails generate rspec:install'
   ENV["RAILS_ENV"] ||= 'test'
   require File.expand_path("../../config/environment", __FILE__)
@@ -35,9 +37,9 @@ SimpleCov.start 'rails'
     # instead of true.
     config.use_transactional_fixtures = true
   end
-#end
+end
 #
 #
-#Spork.each_run do
+Spork.each_run do
 #
-#end
+end
