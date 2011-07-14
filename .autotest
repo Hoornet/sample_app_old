@@ -1,1 +1,2 @@
+require 'spork'
 require 'autotest/growl'

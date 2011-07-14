@@ -6,10 +6,10 @@ describe PagesController do
   describe "GET 'home'" do
     it "should be successful" do
       get 'home'
-        #noinspection RubyResolve
       response.should be_success
-
     end
+
+
 
     it "should have the right title" do
       get 'home'
