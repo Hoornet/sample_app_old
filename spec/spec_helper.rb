@@ -1,6 +1,9 @@
 require 'rubygems'
-require 'spork'
-Spork.prefork do
+#require 'spork'
+
+
+
+# Spork.prefork do
 # Loading more in this block will cause your tests to run faster. However,
 # if you change any configuration or code from libraries loaded here, you'll
 # need to restart spork for it take effect.
@@ -9,8 +12,8 @@ Spork.prefork do
     require File.dirname(__FILE__) + "/../config/environment"
   end
 
+require 'rspec/rails'
 
-  require 'rspec/rails'
 # Requires supporting files with custom matchers and macros, etc,
 # in ./support/ and its subdirectories.
   Dir["#{File.dirname(__FILE__)}/support/**/*.rb"].each { |f| require f }
@@ -22,7 +25,7 @@ Spork.prefork do
 # config.mock_with :mocha
 # config.mock_with :flexmock
 # config.mock_with :rr
-    config.mock_with :rspec
+    config.mock_with :rspec2
     config.fixture_path = "#{::Rails.root}/spec/fixtures"
 # If you're not using ActiveRecord, or you'd prefer not to run each of your
 # examples within a transaction, comment the following line or assign false
@@ -31,9 +34,7 @@ Spork.prefork do
 ### Part of a Spork hack. See http://bit.ly/arY19y
 # Emulate initializer set_clear_dependencies_hook in
 # railties/lib/rails/application/bootstrap.rb
-    ActiveSupport::Dependencies.clear
-  end
+
 end
 
-Spork.each_run do
-end
+

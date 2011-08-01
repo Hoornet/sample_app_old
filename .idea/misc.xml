@@ -3,6 +3,10 @@
   <component name="DependencyValidationManager">
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="D:\Dropbox\Learning\RAILS\sample_app\coverage" />
+  </component>
   <component name="IdProvider" IDEtalkID="6C55660C13555D77C6F370B664E59038" />
   <component name="JavadocGenerationManager">
     <option name="OUTPUT_DIRECTORY" />
