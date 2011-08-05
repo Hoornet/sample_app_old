@@ -41,7 +41,8 @@ a:visited {
 
 nav {
     float:  right;
-    background: width;
+    background:  #fff;
+    width: 710px;
     padding: 0 0.7em;
     white-space: nowrap;
 }
@@ -92,4 +93,14 @@ a.signup_button {
     border-radius: 10px;
 }
 
-
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 10px;
+    width: 710px;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer nav {
+    float:  none;
+}
