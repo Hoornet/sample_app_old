@@ -1,13 +1,13 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.5'
+gem 'rails', '3.1.0'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
 
-gem 'simplecov', '>= 0.4.0', :require => false, :group => :test
+gem 'simplecov', '>= 0.5.3', :require => false, :group => :test
 
 group :test, :development do
   gem "rspec-rails", "~> 2.4"
@@ -25,13 +25,15 @@ group :development do
 end
 
 group :test do
-	gem 'guard'
+  gem 'guard'
   gem 'guard-rspec'
+  gem 'spork', "> 0.9.0.rc"
+  
   gem 'rb-fchange'
-#	gem 'rspec', "~> 2.1.0"
+  #gem 'rspec', "~> 2.1.0"
   gem 'webrat'
-	gem 'rb-notifu'
-	gem 'win32console'
+  gem 'rb-notifu'
+  gem 'win32console'
   gem "growl", "~> 1.0.3"
 
 #  	gem 'autotest'
