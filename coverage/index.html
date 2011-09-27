@@ -3,38 +3,124 @@
   <head>
     <title>Code coverage for Sample app</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <script src='./assets/0.4.5/jquery-1.4.2.min.js' type='text/javascript'></script>
-    <script src='./assets/0.4.5/jquery.dataTables.min.js' type='text/javascript'></script>   
-    <script src='./assets/0.4.5/fancybox/jquery.fancybox-1.3.1.pack.js' type='text/javascript'></script>   
-    <script src='./assets/0.4.5/jquery.timeago.js' type='text/javascript'></script>   
-    <script src='./assets/0.4.5/jquery.url.js' type='text/javascript'></script>   
-    <script src='./assets/0.4.5/app.js' type='text/javascript'></script>    
-    <link href='./assets/0.4.5/stylesheet.css' media='screen, projection, print' rel='stylesheet' type='text/css'>
-    <link href='./assets/0.4.5/fancybox/jquery.fancybox-1.3.1.css' media='screen, projection, print' rel='stylesheet' type='text/css'>
-    <link href='./assets/0.4.5/smoothness/jquery-ui-1.8.4.custom.css' media='screen, projection, print' rel='stylesheet' type='text/css'>    
-    <link rel="shortcut icon" type="image/png" href="./assets/0.4.5/favicon.png" />
-    <link rel="icon" type="image/png" href="./assets/0.4.5/favicon.png" />
+    <script src='./assets/0.5.3/jquery-1.6.2.min.js' type='text/javascript'></script>
+    <script src='./assets/0.5.3/jquery.dataTables.min.js' type='text/javascript'></script>   
+    <script src='./assets/0.5.3/fancybox/jquery.fancybox-1.3.1.pack.js' type='text/javascript'></script>   
+    <script src='./assets/0.5.3/jquery.timeago.js' type='text/javascript'></script>   
+    <script src='./assets/0.5.3/jquery.url.js' type='text/javascript'></script>   
+    <script src='./assets/0.5.3/highlight.pack.js' type='text/javascript'></script>  
+    <script src='./assets/0.5.3/app.js' type='text/javascript'></script>    
+    <link href='./assets/0.5.3/stylesheet.css' media='screen, projection, print' rel='stylesheet' type='text/css'>
+    <link href='./assets/0.5.3/highlight.css' media='screen, projection, print' rel='stylesheet' type='text/css'>
+    <link href='./assets/0.5.3/fancybox/jquery.fancybox-1.3.1.css' media='screen, projection, print' rel='stylesheet' type='text/css'>
+    <link href='./assets/0.5.3/smoothness/jquery-ui-1.8.4.custom.css' media='screen, projection, print' rel='stylesheet' type='text/css'>    
+    <link rel="shortcut icon" type="image/png" href="./assets/0.5.3/favicon_green.png" />
+    <link rel="icon" type="image/png" href="./assets/0.5.3/favicon.png" />
   </head>
   
   <body>
     <div id="loading">
-      <img src="./assets/0.4.5/loading.gif" alt="loading"/>
+      <img src="./assets/0.5.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2011-08-01T16:53:21+02:00">2011-08-01T16:53:21+02:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2011-09-26T18:44:24+02:00">2011-09-26T18:44:24+02:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
-    All Files
-    (<span class="green">100.0%</span>)
+    <span class="group_name">All Files</span>
+    (<span class="covered_percent"><span class="green">95.0%</span></span>
+     covered at
+     <span class="covered_strength">
+       <span class="green">
+         2.73
+       </span>
+    </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
+    <b>4</b> files in total.
+    <b>20</b> relevant lines. 
+    <span class="green"><b>19</b> lines covered</span> and
+    <span class="red"><b>1</b> lines missed </span>
+  </div>
+  <table class="file_list">
+    <thead>
+      <tr>
+        <th>File</th>
+        <th>% covered</th>
+        <th>Lines</th>
+        <th>Relevant Lines</th>
+        <th>Lines covered</th>
+        <th>Lines missed</th>
+        <th>Avg. Hits / Line</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td class="strong"><a href="#b199617d05cda6ba474aea701cb66eb18592090b" class="src_link" title="app/controllers/application_controller.rb">app/controllers/application_controller.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>4</td>
+        <td>2</td>
+        <td>2</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#6e3cbd35ddbe311daf69afcfc7aa24392799f8eb" class="src_link" title="app/controllers/pages_controller.rb">app/controllers/pages_controller.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>19</td>
+        <td>9</td>
+        <td>9</td>
+        <td>0</td>
+        <td>2.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#fffb60c3e42b9f7086d630058fb2b014ff02bd88" class="src_link" title="app/helpers/application_helper.rb">app/helpers/application_helper.rb</a></td>
+        <td class="yellow strong">87.5 %</td>
+        <td>16</td>
+        <td>8</td>
+        <td>7</td>
+        <td>1</td>
+        <td>6.9</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#786d40f5247e002dd9925e16f58d630ec86d1d25" class="src_link" title="app/helpers/pages_helper.rb">app/helpers/pages_helper.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>2</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+    </tbody>
+  </table>
+</div>
+
+
+        
+          <div class="file_list_container" id="Controllers">
+  <h2>
+    <span class="group_name">Controllers</span>
+    (<span class="covered_percent"><span class="green">100.0%</span></span>
+     covered at
+     <span class="covered_strength">
+       <span class="green">
+         1.5
+       </span>
+    </span> hits/line)
+  </h2>
+  <a name="Controllers"></a>
+  <div>
     <b>2</b> files in total.
-    <b>37</b> relevant lines. 
-    <span class="green"><b>37</b> lines covered</span> and
+    <b>11</b> relevant lines. 
+    <span class="green"><b>11</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -46,27 +132,198 @@
         <th>Relevant Lines</th>
         <th>Lines covered</th>
         <th>Lines missed</th>
+        <th>Avg. Hits / Line</th>
       </tr>
     </thead>
     <tbody>
       
       <tr>
-        <td><a href="#13825d6b2a0b7d6f32846a63fc557c035e7e78d8" class="src_link" title="./spec/controllers/pages_controller_spec.rb">./spec/controllers/pages_controller_spec.rb</a></td>
-        <td class="green">100.0 %</td>
-        <td>55</td>
-        <td>27</td>
-        <td>27</td>
+        <td class="strong"><a href="#b199617d05cda6ba474aea701cb66eb18592090b" class="src_link" title="app/controllers/application_controller.rb">app/controllers/application_controller.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>4</td>
+        <td>2</td>
+        <td>2</td>
         <td>0</td>
+        <td>1.0</td>
       </tr>
       
       <tr>
-        <td><a href="#5c33bf0952c2abd27d2948b58d897019de90656a" class="src_link" title="./spec/spec_helper.rb">./spec/spec_helper.rb</a></td>
-        <td class="green">100.0 %</td>
-        <td>40</td>
-        <td>10</td>
-        <td>10</td>
+        <td class="strong"><a href="#6e3cbd35ddbe311daf69afcfc7aa24392799f8eb" class="src_link" title="app/controllers/pages_controller.rb">app/controllers/pages_controller.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>19</td>
+        <td>9</td>
+        <td>9</td>
         <td>0</td>
+        <td>2.0</td>
       </tr>
+      
+    </tbody>
+  </table>
+</div>
+
+        
+          <div class="file_list_container" id="Models">
+  <h2>
+    <span class="group_name">Models</span>
+    (<span class="covered_percent"><span class="green">100.0%</span></span>
+     covered at
+     <span class="covered_strength">
+       <span class="red">
+         0.0
+       </span>
+    </span> hits/line)
+  </h2>
+  <a name="Models"></a>
+  <div>
+    <b>0</b> files in total.
+    <b>0.0</b> relevant lines. 
+    <span class="green"><b>0.0</b> lines covered</span> and
+    <span class="red"><b>0.0</b> lines missed </span>
+  </div>
+  <table class="file_list">
+    <thead>
+      <tr>
+        <th>File</th>
+        <th>% covered</th>
+        <th>Lines</th>
+        <th>Relevant Lines</th>
+        <th>Lines covered</th>
+        <th>Lines missed</th>
+        <th>Avg. Hits / Line</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+    </tbody>
+  </table>
+</div>
+
+        
+          <div class="file_list_container" id="Helpers">
+  <h2>
+    <span class="group_name">Helpers</span>
+    (<span class="covered_percent"><span class="yellow">88.89%</span></span>
+     covered at
+     <span class="covered_strength">
+       <span class="green">
+         3.95
+       </span>
+    </span> hits/line)
+  </h2>
+  <a name="Helpers"></a>
+  <div>
+    <b>2</b> files in total.
+    <b>9</b> relevant lines. 
+    <span class="green"><b>8</b> lines covered</span> and
+    <span class="red"><b>1</b> lines missed </span>
+  </div>
+  <table class="file_list">
+    <thead>
+      <tr>
+        <th>File</th>
+        <th>% covered</th>
+        <th>Lines</th>
+        <th>Relevant Lines</th>
+        <th>Lines covered</th>
+        <th>Lines missed</th>
+        <th>Avg. Hits / Line</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td class="strong"><a href="#fffb60c3e42b9f7086d630058fb2b014ff02bd88" class="src_link" title="app/helpers/application_helper.rb">app/helpers/application_helper.rb</a></td>
+        <td class="yellow strong">87.5 %</td>
+        <td>16</td>
+        <td>8</td>
+        <td>7</td>
+        <td>1</td>
+        <td>6.9</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#786d40f5247e002dd9925e16f58d630ec86d1d25" class="src_link" title="app/helpers/pages_helper.rb">app/helpers/pages_helper.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>2</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+    </tbody>
+  </table>
+</div>
+
+        
+          <div class="file_list_container" id="Libraries">
+  <h2>
+    <span class="group_name">Libraries</span>
+    (<span class="covered_percent"><span class="green">100.0%</span></span>
+     covered at
+     <span class="covered_strength">
+       <span class="red">
+         0.0
+       </span>
+    </span> hits/line)
+  </h2>
+  <a name="Libraries"></a>
+  <div>
+    <b>0</b> files in total.
+    <b>0.0</b> relevant lines. 
+    <span class="green"><b>0.0</b> lines covered</span> and
+    <span class="red"><b>0.0</b> lines missed </span>
+  </div>
+  <table class="file_list">
+    <thead>
+      <tr>
+        <th>File</th>
+        <th>% covered</th>
+        <th>Lines</th>
+        <th>Relevant Lines</th>
+        <th>Lines covered</th>
+        <th>Lines missed</th>
+        <th>Avg. Hits / Line</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+    </tbody>
+  </table>
+</div>
+
+        
+          <div class="file_list_container" id="Plugins">
+  <h2>
+    <span class="group_name">Plugins</span>
+    (<span class="covered_percent"><span class="green">100.0%</span></span>
+     covered at
+     <span class="covered_strength">
+       <span class="red">
+         0.0
+       </span>
+    </span> hits/line)
+  </h2>
+  <a name="Plugins"></a>
+  <div>
+    <b>0</b> files in total.
+    <b>0.0</b> relevant lines. 
+    <span class="green"><b>0.0</b> lines covered</span> and
+    <span class="red"><b>0.0</b> lines missed </span>
+  </div>
+  <table class="file_list">
+    <thead>
+      <tr>
+        <th>File</th>
+        <th>% covered</th>
+        <th>Lines</th>
+        <th>Relevant Lines</th>
+        <th>Lines covered</th>
+        <th>Lines missed</th>
+        <th>Avg. Hits / Line</th>
+      </tr>
+    </thead>
+    <tbody>
       
     </tbody>
   </table>
@@ -76,1288 +333,329 @@
       </div>
     
       <div id="footer">
-        Generated by <a href="http://github.com/colszowka/simplecov">simplecov</a> v0.4.2 
-        and simplecov-html v0.4.5<br/>
-        using RSpec, D:\Program Files\JetBrains\RubyMine 3.2.2\rb\testing\runner\specs_in_folder_runner.rb 
+        Generated by <a href="http://github.com/colszowka/simplecov">simplecov</a> v0.5.3 
+        and simplecov-html v0.5.3<br/>
+        using RSpec
       </div>
     
       <div class="source_files">
       
-        <div class="source_table" id="13825d6b2a0b7d6f32846a63fc557c035e7e78d8">
-  <table>
-    <thead>
-    <tr>
-      <td colspan="3">
-        <h3>./spec/controllers/pages_controller_spec.rb</h3>
-        <h4><span class="green">100.0 %</span> covered</h4>
-      </td>
-    </tr>
-    <tr>
-      <th>#</th>
-      <th></th>
-      <th>Hits</th>
-    </tr>
-    </thead>
-    <tbody>
+        <div class="source_table" id="b199617d05cda6ba474aea701cb66eb18592090b">
+  <div class="header">
+    <h3>app/controllers/application_controller.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>2</b> relevant lines. 
+      <span class="green"><b>2</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
   
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>1</pre>
-      </td>
-      <td>
-        <pre>require 'spec_helper'</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>2</pre>
-      </td>
-      <td>
-        <pre></pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>3</pre>
-      </td>
-      <td>
-        <pre>describe PagesController do</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>4</pre>
-      </td>
-      <td>
-        <pre>  render_views</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>5</pre>
-      </td>
-      <td>
-        <pre></pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>6</pre>
-      </td>
-      <td>
-        <pre>  describe &quot;GET 'home'&quot; do</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>7</pre>
-      </td>
-      <td>
-        <pre>    it &quot;should be successful&quot; do</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>8</pre>
-      </td>
-      <td>
-        <pre>      get 'home'</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>9</pre>
-      </td>
-      <td>
-        <pre>      response.should be_success</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>10</pre>
-      </td>
-      <td>
-        <pre>    end</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>11</pre>
-      </td>
-      <td>
-        <pre></pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>12</pre>
-      </td>
-      <td>
-        <pre></pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>13</pre>
-      </td>
-      <td>
-        <pre></pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>14</pre>
-      </td>
-      <td>
-        <pre>    it &quot;should have the right title&quot; do</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>15</pre>
-      </td>
-      <td>
-        <pre>      get 'home'</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>16</pre>
-      </td>
-      <td>
-        <pre>      response.should have_selector(&quot;title&quot;,</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>17</pre>
-      </td>
-      <td>
-        <pre>          :content =&gt; &quot;RoR Tutorial sample app | Home&quot;)</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>18</pre>
-      </td>
-      <td>
-        <pre>    end</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>19</pre>
-      </td>
-      <td>
-        <pre></pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>20</pre>
-      </td>
-      <td>
-        <pre>    it &quot;should have a non-blank body&quot; do</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>21</pre>
-      </td>
-      <td>
-        <pre>      get 'home'</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>22</pre>
-      </td>
-      <td>
-        <pre>      response.body.should_not =~ /&lt;body&gt;\s*&lt;\/body&gt;/</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>23</pre>
-      </td>
-      <td>
-        <pre>    end</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>24</pre>
-      </td>
-      <td>
-        <pre>  end</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>25</pre>
-      </td>
-      <td>
-        <pre></pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>26</pre>
-      </td>
-      <td>
-        <pre>  describe &quot;GET 'contact'&quot; do</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>27</pre>
-      </td>
-      <td>
-        <pre>    it &quot;should be successful&quot; do</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>28</pre>
-      </td>
-      <td>
-        <pre>      get 'contact'</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>29</pre>
-      </td>
-      <td>
-        <pre>        #noinspection RubyResolve</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>30</pre>
-      </td>
-      <td>
-        <pre>      response.should be_success</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>31</pre>
-      </td>
-      <td>
-        <pre>    end</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>32</pre>
-      </td>
-      <td>
-        <pre></pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>33</pre>
-      </td>
-      <td>
-        <pre>    it &quot;should have the right title&quot; do</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>34</pre>
-      </td>
-      <td>
-        <pre>      get 'contact'</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>35</pre>
-      </td>
-      <td>
-        <pre>      response.should have_selector(&quot;title&quot;,</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>36</pre>
-      </td>
-      <td>
-        <pre>           :content =&gt; &quot;RoR Tutorial sample app | Contact&quot;)</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>37</pre>
-      </td>
-      <td>
-        <pre>    end</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>38</pre>
-      </td>
-      <td>
-        <pre>  end</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>39</pre>
-      </td>
-      <td>
-        <pre></pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>40</pre>
-      </td>
-      <td>
-        <pre></pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>41</pre>
-      </td>
-      <td>
-        <pre>  describe &quot;GET 'about'&quot; do</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>42</pre>
-      </td>
-      <td>
-        <pre>    it &quot;should be successful&quot; do</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>43</pre>
-      </td>
-      <td>
-        <pre>      get 'about'</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>44</pre>
-      </td>
-      <td>
-        <pre>        #noinspection RubyResolve</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>45</pre>
-      </td>
-      <td>
-        <pre>      response.should be_success</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>46</pre>
-      </td>
-      <td>
-        <pre>    end</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>47</pre>
-      </td>
-      <td>
-        <pre></pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>48</pre>
-      </td>
-      <td>
-        <pre>    it &quot;should have the right title&quot; do</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>49</pre>
-      </td>
-      <td>
-        <pre>      get 'about'</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>50</pre>
-      </td>
-      <td>
-        <pre>      response.should have_selector(&quot;title&quot;,</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>51</pre>
-      </td>
-      <td>
-        <pre>           :content =&gt; &quot;RoR Tutorial sample app | About&quot;)</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>52</pre>
-      </td>
-      <td>
-        <pre>    end</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>53</pre>
-      </td>
-      <td>
-        <pre>  end</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>54</pre>
-      </td>
-      <td>
-        <pre></pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>55</pre>
-      </td>
-      <td>
-        <pre>end</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    </tbody>
-  </table>
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">class ApplicationController &lt; ActionController::Base</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="2">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  protect_from_forgery</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="3">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="4">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
 </div>
       
-        <div class="source_table" id="5c33bf0952c2abd27d2948b58d897019de90656a">
-  <table>
-    <thead>
-    <tr>
-      <td colspan="3">
-        <h3>./spec/spec_helper.rb</h3>
-        <h4><span class="green">100.0 %</span> covered</h4>
-      </td>
-    </tr>
-    <tr>
-      <th>#</th>
-      <th></th>
-      <th>Hits</th>
-    </tr>
-    </thead>
-    <tbody>
+        <div class="source_table" id="6e3cbd35ddbe311daf69afcfc7aa24392799f8eb">
+  <div class="header">
+    <h3>app/controllers/pages_controller.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>9</b> relevant lines. 
+      <span class="green"><b>9</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
   
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>1</pre>
-      </td>
-      <td>
-        <pre>require 'rubygems'</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">class PagesController &lt; ApplicationController</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def home</code>
+        </li>
+      
+        <li class="covered" data-hits="4" data-linenumber="4">
+          <span class="hits">4</span>
+          
+          <code class="ruby">    @title = &quot;Home&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="5">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="6">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="7">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def contact</code>
+        </li>
+      
+        <li class="covered" data-hits="3" data-linenumber="8">
+          <span class="hits">3</span>
+          
+          <code class="ruby">    @title = &quot;Contact&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="9">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="10">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="11">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def about</code>
+        </li>
+      
+        <li class="covered" data-hits="3" data-linenumber="12">
+          <span class="hits">3</span>
+          
+          <code class="ruby">    @title = &quot;About&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="13">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="14">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="15">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def help</code>
+        </li>
+      
+        <li class="covered" data-hits="3" data-linenumber="16">
+          <span class="hits">3</span>
+          
+          <code class="ruby">    @title = &quot;Help&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="17">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="18">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="19">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+      
+        <div class="source_table" id="fffb60c3e42b9f7086d630058fb2b014ff02bd88">
+  <div class="header">
+    <h3>app/helpers/application_helper.rb</h3>
+    <h4><span class="yellow">87.5 %</span> covered</h4>
+    <div>
+      <b>8</b> relevant lines. 
+      <span class="green"><b>7</b> lines covered</span> and
+      <span class="red"><b>1</b> lines missed.</span>
+    </div>
+  </div>
   
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>2</pre>
-      </td>
-      <td>
-        <pre>#require 'spork'</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">module ApplicationHelper</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="3">
+          
+          
+          <code class="ruby">  # Return a title on a per-page basis.</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def title</code>
+        </li>
+      
+        <li class="covered" data-hits="13" data-linenumber="5">
+          <span class="hits">13</span>
+          
+          <code class="ruby">    base_title = &quot;RoR Tutorial sample app&quot;</code>
+        </li>
+      
+        <li class="covered" data-hits="13" data-linenumber="6">
+          <span class="hits">13</span>
+          
+          <code class="ruby">    if @title.nil?</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="7">
+          
+          
+          <code class="ruby">      base_title</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="8">
+          
+          
+          <code class="ruby">    else</code>
+        </li>
+      
+        <li class="covered" data-hits="13" data-linenumber="9">
+          <span class="hits">13</span>
+          
+          <code class="ruby">      &quot;#{base_title} | #{@title}&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="10">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="12">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="13">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def logo</code>
+        </li>
+      
+        <li class="covered" data-hits="13" data-linenumber="14">
+          <span class="hits">13</span>
+          
+          <code class="ruby">    image_tag(&quot;logo.png&quot;, :alt =&gt; &quot;Sample App&quot;, :class =&gt; &quot;round&quot;)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="15">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="16">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+      
+        <div class="source_table" id="786d40f5247e002dd9925e16f58d630ec86d1d25">
+  <div class="header">
+    <h3>app/helpers/pages_helper.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>1</b> relevant lines. 
+      <span class="green"><b>1</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
   
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>3</pre>
-      </td>
-      <td>
-        <pre></pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>4</pre>
-      </td>
-      <td>
-        <pre></pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>5</pre>
-      </td>
-      <td>
-        <pre></pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>6</pre>
-      </td>
-      <td>
-        <pre># Spork.prefork do</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>7</pre>
-      </td>
-      <td>
-        <pre># Loading more in this block will cause your tests to run faster. However,</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>8</pre>
-      </td>
-      <td>
-        <pre># if you change any configuration or code from libraries loaded here, you'll</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>9</pre>
-      </td>
-      <td>
-        <pre># need to restart spork for it take effect.</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>10</pre>
-      </td>
-      <td>
-        <pre>  ENV[&quot;RAILS_ENV&quot;] ||= 'test'</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>11</pre>
-      </td>
-      <td>
-        <pre>  unless defined?(Rails)</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>12</pre>
-      </td>
-      <td>
-        <pre>    require File.dirname(__FILE__) + &quot;/../config/environment&quot;</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>13</pre>
-      </td>
-      <td>
-        <pre>  end</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>14</pre>
-      </td>
-      <td>
-        <pre></pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>15</pre>
-      </td>
-      <td>
-        <pre>require 'rspec/rails'</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>16</pre>
-      </td>
-      <td>
-        <pre></pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>17</pre>
-      </td>
-      <td>
-        <pre># Requires supporting files with custom matchers and macros, etc,</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>18</pre>
-      </td>
-      <td>
-        <pre># in ./support/ and its subdirectories.</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>19</pre>
-      </td>
-      <td>
-        <pre>  Dir[&quot;#{File.dirname(__FILE__)}/support/**/*.rb&quot;].each { |f| require f }</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>20</pre>
-      </td>
-      <td>
-        <pre>  Rspec.configure do |config|</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>21</pre>
-      </td>
-      <td>
-        <pre># == Mock Framework</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>22</pre>
-      </td>
-      <td>
-        <pre>#</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>23</pre>
-      </td>
-      <td>
-        <pre># If you prefer to use mocha, flexmock or RR, uncomment the appropriate line:</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>24</pre>
-      </td>
-      <td>
-        <pre>#</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>25</pre>
-      </td>
-      <td>
-        <pre># config.mock_with :mocha</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>26</pre>
-      </td>
-      <td>
-        <pre># config.mock_with :flexmock</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>27</pre>
-      </td>
-      <td>
-        <pre># config.mock_with :rr</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>28</pre>
-      </td>
-      <td>
-        <pre>    config.mock_with :rspec2</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>29</pre>
-      </td>
-      <td>
-        <pre>    config.fixture_path = &quot;#{::Rails.root}/spec/fixtures&quot;</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>30</pre>
-      </td>
-      <td>
-        <pre># If you're not using ActiveRecord, or you'd prefer not to run each of your</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>31</pre>
-      </td>
-      <td>
-        <pre># examples within a transaction, comment the following line or assign false</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>32</pre>
-      </td>
-      <td>
-        <pre># instead of true.</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>33</pre>
-      </td>
-      <td>
-        <pre>    config.use_transactional_fixtures = true</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>34</pre>
-      </td>
-      <td>
-        <pre>### Part of a Spork hack. See http://bit.ly/arY19y</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>35</pre>
-      </td>
-      <td>
-        <pre># Emulate initializer set_clear_dependencies_hook in</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>36</pre>
-      </td>
-      <td>
-        <pre># railties/lib/rails/application/bootstrap.rb</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>37</pre>
-      </td>
-      <td>
-        <pre></pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>38</pre>
-      </td>
-      <td>
-        <pre>end</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>39</pre>
-      </td>
-      <td>
-        <pre></pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>40</pre>
-      </td>
-      <td>
-        <pre></pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    </tbody>
-  </table>
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">module PagesHelper</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
 </div>
       
       </div>
