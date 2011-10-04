@@ -28,11 +28,12 @@ group :test do
   gem 'guard'
   gem 'guard-rspec'
   gem 'spork', "> 0.9.0.rc"
-  
   gem 'rb-fchange'
+  gem 'rb-notifu'  
+  gem 'guard-spork'  
+  gem "capybara"
   #gem 'rspec', "~> 2.1.0"
   gem 'webrat'
-  gem 'rb-notifu'
   gem 'win32console'
   gem "growl", "~> 1.0.3"
 
@@ -40,6 +41,4 @@ group :test do
 #  	gem 'autotest-growl'
 #  	gem "ZenTest", "~> 4.5"
 # 	gem "autotest-rails", "~> 4.1.0"
-#  	gem 'spork', '~> 0.9.0.rc8'
-#  	gem 'guard-spork'
 end
